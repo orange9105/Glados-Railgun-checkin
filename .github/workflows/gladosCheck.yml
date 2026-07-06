@@ -9,6 +9,7 @@ on:
       - 'imgs/**'
   schedule:
     - cron: '17 4,10 * * *'
+    - cron: '47 5,11 * * *'
 
 jobs:
   build:
